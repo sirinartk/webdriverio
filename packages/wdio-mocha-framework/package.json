@@ -32,7 +32,7 @@
   "dependencies": {
     "@wdio/logger": "5.13.2",
     "@wdio/utils": "5.14.4",
-    "mocha": "^6.1.0"
+    "mocha": "^7.1.1"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.5"
