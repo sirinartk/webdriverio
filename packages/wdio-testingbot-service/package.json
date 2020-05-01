@@ -15,7 +15,9 @@
     "compile": "babel src/ -d build/ --config-file ../../babel.config.js",
     "test": "run-s test:*",
     "test:eslint": "eslint src test",
-    "test:unit": "jest"
+    "test:unit": "jest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -33,12 +35,14 @@
   "dependencies": {
     "@wdio/logger": "5.13.2",
     "request": "^2.85.0",
-    "testingbot-tunnel-launcher": "^1.1.7"
+    "testingbot-tunnel-launcher": "^1.1.7",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "@wdio/cli": "^5.0.0"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
