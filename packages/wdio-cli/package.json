@@ -19,7 +19,9 @@
     "copy": "copyfiles -u 1 src/templates/*.ejs ./build/",
     "test": "run-s test:*",
     "test:eslint": "eslint src test",
-    "test:unit": "jest"
+    "test:unit": "jest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -51,9 +53,11 @@
     "log-update": "^3.2.0",
     "webdriverio": "5.14.4",
     "yargs": "^14.0.0",
-    "yarn-install": "^1.0.0"
+    "yarn-install": "^1.0.0",
+    "snyk": "^1.316.1"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
