@@ -34,7 +34,7 @@
     "@wdio/sync": "5.14.4",
     "@wdio/utils": "5.14.4",
     "cucumber": "^5.1.0",
-    "glob": "^7.1.2",
+    "glob": "^9.0.0",
     "is-glob": "^4.0.0",
     "mockery": "~2.1.0"
   },
