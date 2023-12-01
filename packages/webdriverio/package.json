@@ -55,11 +55,11 @@
     "test:unit": "jest"
   },
   "dependencies": {
-    "@wdio/config": "5.14.0",
+    "@wdio/config": "8.6.2",
     "@wdio/logger": "5.13.2",
     "@wdio/repl": "5.14.4",
     "@wdio/utils": "5.14.4",
-    "archiver": "^3.0.0",
+    "archiver": "^5.0.0",
     "css-value": "^0.0.1",
     "grapheme-splitter": "^1.0.2",
     "lodash.clonedeep": "^4.5.0",
@@ -69,6 +69,6 @@
     "resq": "^1.6.0",
     "rgb2hex": "^0.1.0",
     "serialize-error": "^5.0.0",
-    "webdriver": "5.14.4"
+    "webdriver": "8.6.2"
   }
 }
