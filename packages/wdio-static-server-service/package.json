@@ -37,7 +37,7 @@
   "dependencies": {
     "@wdio/logger": "5.13.2",
     "express": "^4.14.0",
-    "fs-extra": "^0.30.0",
+    "fs-extra": "^1.0.0",
     "morgan": "^1.7.0"
   },
   "publishConfig": {
