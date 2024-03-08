@@ -35,7 +35,7 @@
     "@wdio/utils": "5.14.4",
     "deepmerge": "^4.0.0",
     "gaze": "^1.1.2",
-    "webdriverio": "5.14.4"
+    "webdriverio": "8.33.0"
   },
   "publishConfig": {
     "access": "public"
